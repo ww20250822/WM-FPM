@@ -7,11 +7,6 @@ from WT_models.wtconv.wtconv2d import WTConv2d
 from models.MILA import MILABlock
 
 
-###############################################################################
-# Helper Functions
-###############################################################################
-
-
 class Identity(nn.Module):
     def forward(self, x):
         return x
@@ -212,9 +207,6 @@ def define_D(input_nc, ndf, netD, n_layers_D=3, norm='batch', init_type='normal'
     return init_net(net, init_type, init_gain, gpu_ids)
 
 
-##############################################################################
-# Classes
-##############################################################################
 class GANLoss(nn.Module):
     """Define different GAN objectives.
 
