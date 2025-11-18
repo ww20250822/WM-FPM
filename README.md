@@ -58,7 +58,7 @@ If you use this code for your research, please cite our paper.
 @article{sun2025fast,
   title={Fast High-Fidelity Fourier Ptychographic Microscopy via Wavelet Transform and Linear Attention},
   author={Sun, Wenwen and Li, Jiajin and Wu, Hao and Jiang, Xiang and Zhang, Xingnan and Wei, Xunbin and Wang, Yadan and Zhou, Jinhua},
-  journal={Laser & Photonics Reviews},
+  journal={Laser \& Photonics Reviews},
   pages={e01895},
   year={2025},
   publisher={Wiley Online Library}
